@@ -1,7 +1,7 @@
 print("Welcome to the Python MCQ (Multiple Choice Questions)")
 
 Name=input("Please enter you name: ").upper()
-print("***Welcome", Name,"***" "\n")
+print("*** Welcome", Name,"***" "\n")
 
 playing = input("Do you want to play (Y/N) \n").upper()
 
@@ -91,7 +91,7 @@ if ans.lower()=="a":
 else:
     print("Incorrect\n")
 
-ans=input(" What do we use to define a block of code in Python language? \n" +
+ans=input("What do we use to define a block of code in Python language? \n" +
           "a) Key\n" +
           "b) Brackets\n"+
           "c) Indentation\n"+
